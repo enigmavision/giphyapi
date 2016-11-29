@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<!-- jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<!-- Linking Reset CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<!-- Linking Google Font - Open Sans Condensed + Bold -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700">
+	<!-- Linking Style CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<!-- Title -->
+	<title>Giphy API</title>
+
+</head>
+<body>
+	<div class="container"><!-- Start of the container -->
+		<!-- Div for the pre-determined and auto-generated shows to appear  -->
+		<div id="natureButtons">
+		</div>
+
+		<!-- Form for the user to input different shows -->
+		<form id="nature-form">
+			<input type="text" id="natureInput"><br>
+			<input id="addNature" type="submit" value="Add Nature">
+		</form>
+
+		<!-- Div for the population of the gifs being pulled from the API -->
+		<div id="natureGifs">
+		</div>
+	</div><!-- End of the container -->
+
+	<script type="text/javascript" src="giphy.js"></script>
+</body>
