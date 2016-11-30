@@ -1,0 +1,67 @@
+/************************
+          GENERAL
+************************/
+body{
+	background-color: #88CEEC;
+}
+
+button,
+div,
+form,
+input{
+	margin: 10px;
+	color: #7ECAEB;
+}
+
+/************************
+          Buttons
+************************/
+button,
+#addNature{
+	color: #7ECAEB;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-bottom: 2px solid;
+	background-color: #035E7B;
+	font: 700 24px/150% "Open Sans Condensed", sans-serif;
+	transition: all ease-in-out 0.5s;
+}
+
+#addNature:hover,
+button:hover{
+	color: #7EEB9B;
+	border-color: #7EEB9B;
+}
+/************************
+        Input Field
+************************/
+#natureInput{
+	font: 300 24px/150% "Open Sans Condensed", sans-serif;
+	color: #002E2C;
+}
+
+#nature-form{
+	position: center;
+	bottom: 0;
+	right: 0;
+}
+
+/************************
+   Area with added Gifs
+************************/
+
+.natureGif{
+	display: inline-block;
+	vertical-align: top;
+	color: #EFF1C5;
+	font: 300 24px/150% "Open Sans Condensed", sans-serif;
+}
+
+img{
+	max-height: 100%;
+	width: 400px;
+	padding: 20px;
+	clear: both;
+	margin: 20px;
+}
